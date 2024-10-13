@@ -1,0 +1,80 @@
+body{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(216, 216, 216);
+}
+
+#h1{
+    font-size: 4rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black; 
+}
+
+#container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 35px;
+    border: 5px solid;
+    border-radius: 50px;
+    background-color: #ffffff;
+}
+
+#display{
+    font-size: 5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: black;
+    text-shadow: 2px 2px 2px rgb(56, 56, 56);
+    margin-bottom: 25px;
+}
+
+#controls button{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 5px;
+    min-width: 125px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #ffffff;
+    transition: background-color .3s ease;
+}
+
+#startbtn{
+    background-color: rgb(60, 198, 60);
+}
+
+#startbtn:hover{
+    background-color: rgb(41, 161, 20);
+}
+
+#startbtn:active{
+    background-color: rgb(77, 250, 89);
+}
+
+#stopbtn{
+    background-color: rgb(227, 32, 38);
+}
+
+#stopbtn:hover{
+    background-color: rgb(193, 7, 20);
+}
+
+#stopbtn:active{
+    background-color:rgb(255, 94, 58);
+}
+
+#resetbtn{
+    background-color: hsl(180, 55%, 51%);
+}
+
+#resetbtn:hover{
+    background-color: hsl(180, 66%, 41%);
+}
+
+#resetbtn:active{
+    background-color:hsl(180, 73%, 58%);
+}
